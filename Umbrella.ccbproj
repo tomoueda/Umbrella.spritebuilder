@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>defaultOrientation</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>designTarget</key>
 	<integer>0</integer>
 	<key>deviceOrientationLandscapeLeft</key>
@@ -29,7 +29,7 @@
 	<key>javascriptMainCCB</key>
 	<string>MainScene</string>
 	<key>needRepublish</key>
-	<true/>
+	<false/>
 	<key>onlyPublishCCBs</key>
 	<false/>
 	<key>publishAudioQuality_android</key>
@@ -88,6 +88,8 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
+		<key>Girl.ccbi</key>
+		<dict/>
 		<key>Sprites</key>
 		<dict/>
 		<key>ccbResources</key>
@@ -174,8 +176,13 @@
 		</dict>
 	</dict>
 	<key>versionStr</key>
+<<<<<<< HEAD
 	<string>Version: 1.0.6
 GitHub: 2a1e3712de
+=======
+	<string>Version: 1.0.3
+GitHub: 9026dcdd50
+>>>>>>> origin/Joel
 </string>
 </dict>
 </plist>
