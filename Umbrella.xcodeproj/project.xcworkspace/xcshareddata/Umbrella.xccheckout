@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D3495F76-5943-4F3B-8601-1761383BA826</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Umbrella</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>65726E17-61BE-49A0-AA4E-CF9FABB6BD19</key>
+		<string>https://github.com/tomoueda/Umbrella.spritebuilder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Umbrella.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>65726E17-61BE-49A0-AA4E-CF9FABB6BD19</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tomoueda/Umbrella.spritebuilder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>65726E17-61BE-49A0-AA4E-CF9FABB6BD19</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65726E17-61BE-49A0-AA4E-CF9FABB6BD19</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Umbrella</string>
+		</dict>
+	</array>
+</dict>
+</plist>

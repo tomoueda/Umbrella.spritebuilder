@@ -9,5 +9,8 @@
 #import "CCSprite.h"
 
 @interface FlyingItem : CCSprite
-
+{
+float locx;
+float locy;
+}
 @end
