@@ -29,7 +29,7 @@
 	<key>javascriptMainCCB</key>
 	<string>MainScene</string>
 	<key>needRepublish</key>
-	<false/>
+	<true/>
 	<key>onlyPublishCCBs</key>
 	<false/>
 	<key>publishAudioQuality_android</key>
@@ -88,7 +88,7 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
-		<key>Girl.ccbi</key>
+		<key>FlyingItem.ccbi</key>
 		<dict/>
 		<key>Sprites</key>
 		<dict/>
@@ -176,13 +176,8 @@
 		</dict>
 	</dict>
 	<key>versionStr</key>
-<<<<<<< HEAD
-	<string>Version: 1.0.6
-GitHub: 2a1e3712de
-=======
 	<string>Version: 1.0.3
 GitHub: 9026dcdd50
->>>>>>> origin/Joel
 </string>
 </dict>
 </plist>

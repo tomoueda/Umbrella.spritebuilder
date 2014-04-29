@@ -1,0 +1,14 @@
+TObjectiveChipmunk-iPhone
+v7
+r1
+cCheck dependencies
+
+N/Users/tomoueda/Umbrella.spritebuilder/Source/libs/cocos2d-iphone/build/Debug/libObjectiveChipmunk-iPhone.a
+c00000000000000000000000000000000
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies420448253#420448253#0(63"[BEROR]error: There is no SDK with the name or path 'iphoneos'1(4@55"error: There is no SDK with the name or path 'iphoneos'420448253#18446744073709551615#0#0(1@0"0(0#1#0"17218235392#0"0#
+

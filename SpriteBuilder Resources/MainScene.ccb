@@ -136,6 +136,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>animatedProperties</key>
@@ -357,7 +359,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>Girl</string>
+				<string>FlyingItem</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -379,8 +381,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>153</real>
-							<real>501</real>
+							<real>147</real>
+							<real>209</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -405,7 +407,7 @@
 						<key>type</key>
 						<string>CCBFile</string>
 						<key>value</key>
-						<string>Girl.ccb</string>
+						<string>FlyingItem.ccb</string>
 					</dict>
 				</array>
 			</dict>
