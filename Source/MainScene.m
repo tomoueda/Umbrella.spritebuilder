@@ -7,7 +7,14 @@
 //
 
 #import "MainScene.h"
+#import "FlyingItem.h"
 
-@implementation MainScene
-
+@implementation MainScene {
+    FlyingItem* _flyitem;
+}
+-(void)didLoadFromCCB {
+    _flyitem = (FlyingItem*) [CCBReader load:@"FlyingItem"];
+    _flyitem.position = ccp(147, 209);
+    [self addChild:_flyitem];
+}
 @end

@@ -2,7 +2,7 @@
 //  FlyingItem.h
 //  Umbrella
 //
-//  Created by Logan Carter on 4/28/14.
+//  Created by Logan Carter on 4/30/14.
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
@@ -10,7 +10,9 @@
 
 @interface FlyingItem : CCSprite
 {
-float locx;
-float locy;
+    float locx;
+    float locy;
+    bool collision;
 }
+-(void)moveup;
 @end
