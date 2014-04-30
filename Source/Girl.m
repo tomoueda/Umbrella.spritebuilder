@@ -9,5 +9,21 @@
 #import "Girl.h"
 
 @implementation Girl
+    
+
+- (void)didLoadFromCCB
+{
+    CCLOG(@"GIRL LOADED");
+}
+
+- (void)update:(CCTime)delta
+{
+    if (self.move && self.position.x != self.cursor.x)
+    {
+        float xChange;
+        if (self.position.x < self.cursor.x) xChange = 1.0f; else xChange = -1.0f;
+        self.position = ccpAdd(self.position, CGPointMake(xChange, 0.0f));
+    }
+}
 
 @end

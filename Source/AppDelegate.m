@@ -54,7 +54,6 @@
     
     [self setupCocos2dWithOptions:cocos2dSetup];
     
-    [CCBReader load:@"Girl"];
     
     return YES;
 }

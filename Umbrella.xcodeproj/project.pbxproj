@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0631E18190F8CD70059C5BD /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = B0631E17190F8CD70059C5BD /* Girl.m */; };
+		B0631E1E190F91B80059C5BD /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = B0631E1D190F91B80059C5BD /* Girl.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -56,8 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B0631E16190F8CD70059C5BD /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Girl.h; path = Source/Girl.h; sourceTree = "<group>"; };
-		B0631E17190F8CD70059C5BD /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Girl.m; path = Source/Girl.m; sourceTree = "<group>"; };
+		B0631E1C190F91B80059C5BD /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Girl.h; path = Source/Girl.h; sourceTree = "<group>"; };
+		B0631E1D190F91B80059C5BD /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Girl.m; path = Source/Girl.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -127,8 +127,8 @@
 			children = (
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
-				B0631E16190F8CD70059C5BD /* Girl.h */,
-				B0631E17190F8CD70059C5BD /* Girl.m */,
+				B0631E1C190F91B80059C5BD /* Girl.h */,
+				B0631E1D190F91B80059C5BD /* Girl.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
 			);
@@ -326,7 +326,7 @@
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
-				B0631E18190F8CD70059C5BD /* Girl.m in Sources */,
+				B0631E1E190F91B80059C5BD /* Girl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

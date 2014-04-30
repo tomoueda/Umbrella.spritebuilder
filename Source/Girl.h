@@ -6,8 +6,12 @@
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
-#import "CCSprite.h"
+#import "CCNode.h"
 
-@interface Girl : CCSprite
+@interface Girl : CCNode
+
+@property (nonatomic, assign) BOOL move;
+
+@property (nonatomic, assign) CGPoint cursor;
 
 @end

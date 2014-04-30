@@ -11,25 +11,40 @@
 
 
 
-@implementation MainScene
-
-- (id)init
-{
-    self = [super init];
-    
-    // activate touches on this scene
-    self.userInteractionEnabled = TRUE;
-    
-    return self;
-};
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    CCLOG(@"Received a touch");
-    UITouch *touch = [touches anyObject];
-    CGPoint touchLocation = [touch locationInNode:self];
-    Girl.position = touchLocation;
+@implementation MainScene {
+    Girl *_girl;
 }
 
+- (void)didLoadFromCCB {
+    // tell this scene to accept touches
+    self.userInteractionEnabled = TRUE;
+    _girl = (Girl*) [CCBReader load:@"Girl"];
+    _girl.position = ccp(175, 500);
+    [self addChild:_girl];
+}
+
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    CGPoint touchLocation = [touch locationInNode:self];
+    _girl.move = TRUE;
+    _girl.cursor = touchLocation;
+    
+}
+
+- (void)touchMoved:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    CGPoint touchLocation = [touch locationInNode:self];
+    _girl.cursor = touchLocation;
+}
+
+-(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    _girl.move = FALSE;
+}
+
+-(void) touchCancelled:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    _girl.move = FALSE;
+}
 
 
 @end
