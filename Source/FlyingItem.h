@@ -10,8 +10,6 @@
 
 @interface FlyingItem : CCSprite
 {
-    float locx;
-    float locy;
     bool collision;
 }
 -(void)moveup;
