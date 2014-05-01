@@ -21,7 +21,7 @@
     if (self.move && self.position.x != self.cursor.x)
     {
         float xChange;
-        if (self.position.x < self.cursor.x) xChange = 1.0f; else xChange = -1.0f;
+        if (self.position.x < self.cursor.x) xChange = 10.0f; else xChange = -10.0f;
         self.position = ccpAdd(self.position, CGPointMake(xChange, 0.0f));
     }
 }
