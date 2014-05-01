@@ -23,6 +23,7 @@
     _girl.position = ccp(175, 500);
     [self addChild:_girl];
     _flyitem = (FlyingItem*) [CCBReader load:@"FlyingItem"];
+    [_flyitem setGirl:_girl];
     int r = arc4random() % 326;
     _flyitem.position = ccp(r, 0);
     [self addChild:_flyitem];
@@ -55,8 +56,10 @@
 -(void)AddAnother {
     int r2 = arc4random() % 326;
     _flyitem2 = (FlyingItem*) [CCBReader load:@"FlyingItem"];
+    [_flyitem2 setGirl:_girl];
     _flyitem2.position = ccp(r2, 0);
     [self addChild:_flyitem2];
 }
+
 
 @end
