@@ -8,22 +8,26 @@
 
 #import "MainScene.h"
 #import "FlyingItem.h"
+#import "Communicator.h"
 #import "Girl.h"
 
 @implementation MainScene {
     Girl *_girl;
     FlyingItem* _flyitem;
     FlyingItem* _flyitem2;
+    Communicator* _communicator;
 }
 
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
+    _communicator = [[Communicator alloc] init];
     self.userInteractionEnabled = TRUE;
     _girl = (Girl*) [CCBReader load:@"Girl"];
     _girl.position = ccp(175, 500);
     [self addChild:_girl];
     _flyitem = (FlyingItem*) [CCBReader load:@"FlyingItem"];
     [_flyitem setGirl:_girl];
+    [_flyitem setCommunicator:_communicator];
     int r = arc4random() % 326;
     _flyitem.position = ccp(r, 0);
     [self addChild:_flyitem];
@@ -57,6 +61,7 @@
     int r2 = arc4random() % 326;
     _flyitem2 = (FlyingItem*) [CCBReader load:@"FlyingItem"];
     [_flyitem2 setGirl:_girl];
+    [_flyitem2 setCommunicator:_communicator];
     _flyitem2.position = ccp(r2, 0);
     [self addChild:_flyitem2];
 }

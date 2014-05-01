@@ -7,15 +7,19 @@
 //
 
 #import "CCSprite.h"
+#import "Communicator.h"
 #import "Girl.h"
 
 @interface FlyingItem : CCSprite
 {
     Girl* _girl;
+    Communicator* _communicator;
     BOOL _collision;
+    float _interval;
 }
 
 - (void) setGirl: (Girl*) girl;
+- (void) setCommunicator: (Communicator*) communicator;
 - (void) moveup;
 
 @end
