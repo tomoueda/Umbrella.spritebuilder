@@ -24,9 +24,11 @@
  */
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 #import "cocos2d.h"
 
 @interface AppController : CCAppDelegate
 {
+    AVAudioPlayer *audioPlayer;
 }
 @end
