@@ -8,6 +8,7 @@
 
 #import "FlyingItem.h"
 #import "Communicator.h"
+#import "CCTextureCache.h"
 #import "Girl.h"
 #import "Score.h"
 
@@ -18,6 +19,8 @@
 - (id) init {
     self = [super init];
     if (self) {
+        _image = [[ImageDictionary alloc] init];
+        [self changeImage];
         _collision = false;
         _interval = .0033;
         [self schedule:@selector(updateAndCheckCollision) interval:_interval];
@@ -64,6 +67,7 @@
                 [self speedUp];
                 NSLog(@"speedup %f", _interval);
             }
+            [self changeImage];
             int r = arc4random() % 326;
             self.position = ccp(r, 0);
         }
@@ -82,7 +86,6 @@
     CGRect girlBoundingBox = [_girl boundingBox];
     CGRect intersect = CGRectIntersection(selfBoundingBox, girlBoundingBox);
     if (!CGRectIsNull(intersect)) {
-        NSLog(@"died");
         [self unschedule:@selector(updateAndCheckCollision)];
         [_communicator stopSchedules];
         return true;
@@ -101,6 +104,13 @@
         _interval -= .00027;
     }
     [self schedule:@selector(updateAndCheckCollision) interval:_interval];
+}
+
+- (void) changeImage {
+    NSString* imageString = [_image randomImage];
+    CCTexture* tex = [[CCTextureCache sharedTextureCache] addImage:imageString];
+    [self setTextureRect:CGRectMake(0, 0, tex.contentSize.width, tex.contentSize.height)];
+    [self setTexture:tex];
 }
 
 @end

@@ -10,12 +10,14 @@
 #import "Communicator.h"
 #import "Score.h"
 #import "Girl.h"
+#import "ImageDictionary.h"
 
 @interface FlyingItem : CCSprite
 {
     Girl* _girl;
     Score* _score;
     Communicator* _communicator;
+    ImageDictionary* _image;
     BOOL _collision;
     float _interval;
 }
