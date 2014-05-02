@@ -9,6 +9,7 @@
 #import "FlyingItem.h"
 #import "Communicator.h"
 #import "Girl.h"
+#import "Score.h"
 
 #define ARC4RANDOM_MAX      0x100000000
 
@@ -59,6 +60,10 @@
         self.position = ccp(self.position.x, self.position.y + 1);
         if (self.position.y >= 566) {
             [_score pointUp];
+            if (_score._score % 10 == 0) {
+                [self speedUp];
+                NSLog(@"speedup %f", _interval);
+            }
             int r = arc4random() % 326;
             self.position = ccp(r, 0);
         }
@@ -88,6 +93,14 @@
 - (void) endGame {
     CCScene *endScene = [CCBReader loadAsScene:@"EndScene"];
     [[CCDirector sharedDirector] replaceScene:endScene];
+}
+
+- (void) speedUp {
+    [self unschedule:@selector(updateAndCheckCollision)];
+    if (_interval > .0006) {
+        _interval -= .00027;
+    }
+    [self schedule:@selector(updateAndCheckCollision) interval:_interval];
 }
 
 @end
