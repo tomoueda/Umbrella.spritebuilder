@@ -37,6 +37,7 @@
     _flyitem.position = ccp(r, 0);
     [self addChild:_flyitem];
     [self performSelector:@selector(AddAnother) withObject:nil afterDelay:1.6];
+    
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {

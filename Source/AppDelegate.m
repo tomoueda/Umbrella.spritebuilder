@@ -60,7 +60,23 @@
 
 - (CCScene*) startScene
 {
+    
+    //MUSIC
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/UmbrellaGirl.mp3", [[NSBundle mainBundle] resourcePath]]];
+	
+	NSError *error;
+	audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+	audioPlayer.numberOfLoops = -1;
+	
+	if (audioPlayer == nil)
+		NSLog([error description]);
+	else
+		[audioPlayer play];
+    
+    
     return [CCBReader loadAsScene:@"MainScene"];
 }
 
 @end
+
+
