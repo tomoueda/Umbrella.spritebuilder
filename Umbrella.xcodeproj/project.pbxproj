@@ -10,6 +10,7 @@
 		59FBA8511911AE3800DB9FC8 /* FlyingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FBA8501911AE3800DB9FC8 /* FlyingItem.m */; };
 		6C6C241C1912277A007BDF11 /* EndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C241B1912277A007BDF11 /* EndScene.m */; };
 		6C6C241F19123704007BDF11 /* Communicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C241E19123704007BDF11 /* Communicator.m */; };
+		6C6C2422191323C5007BDF11 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C2421191323C5007BDF11 /* Score.m */; };
 		B0631E1E190F91B80059C5BD /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = B0631E1D190F91B80059C5BD /* Girl.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -65,6 +66,8 @@
 		6C6C241B1912277A007BDF11 /* EndScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndScene.m; path = Source/EndScene.m; sourceTree = "<group>"; };
 		6C6C241D19123704007BDF11 /* Communicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Communicator.h; path = Source/Communicator.h; sourceTree = "<group>"; };
 		6C6C241E19123704007BDF11 /* Communicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Communicator.m; path = Source/Communicator.m; sourceTree = "<group>"; };
+		6C6C2420191323C5007BDF11 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Score.h; path = Source/Score.h; sourceTree = "<group>"; };
+		6C6C2421191323C5007BDF11 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Score.m; path = Source/Score.m; sourceTree = "<group>"; };
 		B0631E1C190F91B80059C5BD /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Girl.h; path = Source/Girl.h; sourceTree = "<group>"; };
 		B0631E1D190F91B80059C5BD /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Girl.m; path = Source/Girl.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				6C6C241D19123704007BDF11 /* Communicator.h */,
 				6C6C241E19123704007BDF11 /* Communicator.m */,
+				6C6C2420191323C5007BDF11 /* Score.h */,
+				6C6C2421191323C5007BDF11 /* Score.m */,
 				59FBA84F1911AE3800DB9FC8 /* FlyingItem.h */,
 				59FBA8501911AE3800DB9FC8 /* FlyingItem.m */,
 			);
@@ -344,6 +349,7 @@
 				B73789871807631A0076A88C /* main.m in Sources */,
 				B0631E1E190F91B80059C5BD /* Girl.m in Sources */,
 				6C6C241C1912277A007BDF11 /* EndScene.m in Sources */,
+				6C6C2422191323C5007BDF11 /* Score.m in Sources */,
 				59FBA8511911AE3800DB9FC8 /* FlyingItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

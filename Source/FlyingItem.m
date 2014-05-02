@@ -18,7 +18,7 @@
     self = [super init];
     if (self) {
         _collision = false;
-        _interval = .0006;
+        _interval = .0033;
         [self schedule:@selector(updateAndCheckCollision) interval:_interval];
     }
    return self;
@@ -30,6 +30,10 @@
 
 - (void) setCommunicator: (Communicator *) communicator {
     _communicator = communicator;
+}
+
+- (void) setScore: (Score*) score {
+    _score = score;
 }
 
 -(void) moveup {
@@ -54,6 +58,7 @@
     } else {
         self.position = ccp(self.position.x, self.position.y + 1);
         if (self.position.y >= 566) {
+            [_score pointUp];
             int r = arc4random() % 326;
             self.position = ccp(r, 0);
         }
