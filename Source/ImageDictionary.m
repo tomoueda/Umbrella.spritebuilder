@@ -16,7 +16,7 @@
     if (self) {
         images = [[NSMutableDictionary alloc] init];
         [images setObject:@"bleach.png" forKey:@"0"];
-        [images setObject:@"broom.png" forKey:@"1"];
+        [images setObject:@"cat.png" forKey:@"1"];
         [images setObject:@"bucket.png" forKey:@"2"];
         [images setObject:@"sponge.png" forKey:@"3"];
         [images setObject:@"cloud.png" forKey:@"4"];
@@ -26,7 +26,7 @@
 
 - (NSString*) randomImage {
     int low = 0;
-    int high = 4;
+    int high = 5;
     int rnd = low + arc4random() % (high - low);
     if (rnd == 0) {
         return [images objectForKey:@"0"];

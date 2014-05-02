@@ -25,7 +25,7 @@
     [self addChild:_score];
     self.userInteractionEnabled = TRUE;
     _girl = (Girl*) [CCBReader load:@"Girl"];
-    _girl.position = ccp(175, 500);
+    _girl.position = ccp(175, 450);
     [self addChild:_girl];
     [self performSelector:@selector(AddAnother) withObject:nil afterDelay:1.6];
     [self schedule:@selector(AddAnother) interval:10];

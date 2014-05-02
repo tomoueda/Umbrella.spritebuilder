@@ -69,7 +69,7 @@
 	audioPlayer.numberOfLoops = -1;
 	
 	if (audioPlayer == nil)
-		NSLog([error description]);
+		NSLog(@"%@", [error description]);
 	else
 		[audioPlayer play];
     

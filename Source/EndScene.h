@@ -9,5 +9,10 @@
 #import "CCNode.h"
 
 @interface EndScene : CCNode
+{
+    CCSprite* _sadgirl;
+    bool flipped;
+}
+
 
 @end
