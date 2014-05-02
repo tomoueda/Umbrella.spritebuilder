@@ -8,7 +8,7 @@
 
 #import "CCNode.h"
 
-@interface Girl : CCNode
+@interface Girl : CCSprite
 
 @property (nonatomic, assign) BOOL move;
 

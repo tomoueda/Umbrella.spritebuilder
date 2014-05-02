@@ -26,5 +26,6 @@
 - (void) setCommunicator: (Communicator*) communicator;
 - (void) setScore: (Score*) score;
 - (void) moveup;
+- (void) changeImage;
 
 @end

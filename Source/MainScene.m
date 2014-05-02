@@ -58,11 +58,13 @@
     int r2 = arc4random() % 326;
 //    _flyitem2 = (FlyingItem*) [CCBReader load:@"FlyingItem"];
     FlyingItem* flyitem = (FlyingItem*) [CCBReader load:@"FlyingItem"];
+    [flyitem changeImage];
     [flyitem setGirl:_girl];
     [flyitem setCommunicator:_communicator];
     [flyitem setScore:_score];
     flyitem.position = ccp(r2, 0);
     [self addChild:flyitem];
+    
 }
 
 

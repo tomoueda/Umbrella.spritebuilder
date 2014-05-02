@@ -109,8 +109,8 @@
 - (void) changeImage {
     NSString* imageString = [_image randomImage];
     CCTexture* tex = [[CCTextureCache sharedTextureCache] addImage:imageString];
-    [self setTextureRect:CGRectMake(0, 0, tex.contentSize.width, tex.contentSize.height)];
     [self setTexture:tex];
+    [self setTextureRect:CGRectMake(0, 0, tex.contentSize.width, tex.contentSize.height)];
 }
 
 @end
