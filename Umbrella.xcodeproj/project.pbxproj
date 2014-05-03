@@ -19,12 +19,14 @@
 		6C6C242F19135ED6007BDF11 /* sponge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C242A19135ED6007BDF11 /* sponge.png */; };
 		6C6C24371913703C007BDF11 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C24301913703C007BDF11 /* cloud.png */; };
 		6C6C24381913703C007BDF11 /* umbrella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C24311913703C007BDF11 /* umbrella.jpg */; };
-		6C6C24391913703C007BDF11 /* umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C24321913703C007BDF11 /* umbrella.png */; };
 		6C6C243A1913703C007BDF11 /* umbrellaflip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C24331913703C007BDF11 /* umbrellaflip.jpg */; };
 		6C6C243B1913703C007BDF11 /* umbrellaflipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C24341913703C007BDF11 /* umbrellaflipped.png */; };
 		6C6C243C1913703C007BDF11 /* umbrellasad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C24351913703C007BDF11 /* umbrellasad.png */; };
 		6C6C243D1913703C007BDF11 /* umbrellasadflipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C24361913703C007BDF11 /* umbrellasadflipped.png */; };
 		6C6C244B191416B2007BDF11 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C244A191416B2007BDF11 /* cat.png */; };
+		6C6C244E191457CD007BDF11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C244D191457CD007BDF11 /* Images.xcassets */; };
+		6C6C2450191458E9007BDF11 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C244F191458E9007BDF11 /* Default~iphone.png */; };
+		6C6C2452191458F0007BDF11 /* Icon~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C2451191458F0007BDF11 /* Icon~iphone.png */; };
 		B04B4DA9191372E8007D56FB /* UmbrellaGirl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B04B4DA8191372E8007D56FB /* UmbrellaGirl.mp3 */; };
 		B0631E1E190F91B80059C5BD /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = B0631E1D190F91B80059C5BD /* Girl.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
@@ -92,12 +94,14 @@
 		6C6C242A19135ED6007BDF11 /* sponge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sponge.png; sourceTree = "<group>"; };
 		6C6C24301913703C007BDF11 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
 		6C6C24311913703C007BDF11 /* umbrella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbrella.jpg; sourceTree = "<group>"; };
-		6C6C24321913703C007BDF11 /* umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umbrella.png; sourceTree = "<group>"; };
 		6C6C24331913703C007BDF11 /* umbrellaflip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbrellaflip.jpg; sourceTree = "<group>"; };
 		6C6C24341913703C007BDF11 /* umbrellaflipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umbrellaflipped.png; sourceTree = "<group>"; };
 		6C6C24351913703C007BDF11 /* umbrellasad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umbrellasad.png; sourceTree = "<group>"; };
 		6C6C24361913703C007BDF11 /* umbrellasadflipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umbrellasadflipped.png; sourceTree = "<group>"; };
 		6C6C244A191416B2007BDF11 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		6C6C244D191457CD007BDF11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Umbrella/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		6C6C244F191458E9007BDF11 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		6C6C2451191458F0007BDF11 /* Icon~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~iphone.png"; sourceTree = "<group>"; };
 		B04B4DA8191372E8007D56FB /* UmbrellaGirl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = UmbrellaGirl.mp3; sourceTree = "<group>"; };
 		B0631E1C190F91B80059C5BD /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Girl.h; path = Source/Girl.h; sourceTree = "<group>"; };
 		B0631E1D190F91B80059C5BD /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Girl.m; path = Source/Girl.m; sourceTree = "<group>"; };
@@ -199,6 +203,8 @@
 		B73789911807667A0076A88C /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				6C6C2451191458F0007BDF11 /* Icon~iphone.png */,
+				6C6C244F191458E9007BDF11 /* Default~iphone.png */,
 				B71F5907188484E7003F4D28 /* iPad-old.png */,
 				B71F5908188484E7003F4D28 /* iPad-old@2x.png */,
 				B71F5909188484E7003F4D28 /* iPad.png */,
@@ -257,10 +263,10 @@
 		B77F1B4617B978D7009739AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6C6C244D191457CD007BDF11 /* Images.xcassets */,
 				6C6C24301913703C007BDF11 /* cloud.png */,
 				6C6C244A191416B2007BDF11 /* cat.png */,
 				6C6C24311913703C007BDF11 /* umbrella.jpg */,
-				6C6C24321913703C007BDF11 /* umbrella.png */,
 				6C6C24331913703C007BDF11 /* umbrellaflip.jpg */,
 				6C6C24341913703C007BDF11 /* umbrellaflipped.png */,
 				6C6C24351913703C007BDF11 /* umbrellasad.png */,
@@ -369,6 +375,7 @@
 				B04B4DA9191372E8007D56FB /* UmbrellaGirl.mp3 in Resources */,
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
 				6C6C243B1913703C007BDF11 /* umbrellaflipped.png in Resources */,
+				6C6C2452191458F0007BDF11 /* Icon~iphone.png in Resources */,
 				6C6C242D19135ED6007BDF11 /* bucket.png in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
 				6C6C244B191416B2007BDF11 /* cat.png in Resources */,
@@ -383,11 +390,12 @@
 				6C6C24371913703C007BDF11 /* cloud.png in Resources */,
 				6C6C242F19135ED6007BDF11 /* sponge.png in Resources */,
 				6C6C242C19135ED6007BDF11 /* broom.png in Resources */,
+				6C6C2450191458E9007BDF11 /* Default~iphone.png in Resources */,
 				B7378976180762440076A88C /* Default-Landscape~ipad.png in Resources */,
 				B71F5915188484E7003F4D28 /* iPhone-old.png in Resources */,
 				6C6C242E19135ED6007BDF11 /* evil.png in Resources */,
+				6C6C244E191457CD007BDF11 /* Images.xcassets in Resources */,
 				B71F5917188484E7003F4D28 /* iPhone.png in Resources */,
-				6C6C24391913703C007BDF11 /* umbrella.png in Resources */,
 				6C6C243D1913703C007BDF11 /* umbrellasadflipped.png in Resources */,
 				B7378975180762440076A88C /* Default-568h@2x.png in Resources */,
 				6C6C242B19135ED6007BDF11 /* bleach.png in Resources */,

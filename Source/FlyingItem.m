@@ -22,7 +22,7 @@
         _image = [[ImageDictionary alloc] init];
         [self changeImage];
         _collision = false;
-        _interval = .0033;
+        _interval = .006;
         [self schedule:@selector(updateAndCheckCollision) interval:_interval];
     }
    return self;
@@ -83,7 +83,11 @@
 
 - (BOOL) checkCollision {
     CGRect selfBoundingBox = [self boundingBox];
-    CGRect girlBoundingBox = [_girl boundingBox];
+    float x = [_girl boundingBox].origin.x;
+    float y = [_girl boundingBox].origin.y;
+    float offsetx = [_girl boundingBox].size.width / 2;
+    float offsety = [_girl boundingBox].size.height / 2;
+    CGRect girlBoundingBox = CGRectMake(x + offsetx, y + offsety, 0, 0);
     CGRect intersect = CGRectIntersection(selfBoundingBox, girlBoundingBox);
     if (!CGRectIsNull(intersect)) {
         [self unschedule:@selector(updateAndCheckCollision)];
@@ -101,7 +105,7 @@
 - (void) speedUp {
     [self unschedule:@selector(updateAndCheckCollision)];
     if (_interval > .0006) {
-        _interval -= .00027;
+        _interval -= .00077;
     }
     [self schedule:@selector(updateAndCheckCollision) interval:_interval];
 }

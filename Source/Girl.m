@@ -23,11 +23,11 @@
     if (self.move && self.position.x != self.cursor.x)
     {
         float xChange = 0.0f;
-        if (self.position.x - 30 < self.cursor.x) {
-            xChange = 5.0f;
+        if (self.position.x < self.cursor.x) {
+            xChange = 2.0f;
             [self changeImageRight];
-        } else if (self.position.x + 30 > self.cursor.x) {
-            xChange = -5.0f;
+        } else if (self.position.x > self.cursor.x) {
+            xChange = -2.0f;
             [self changeImageLeft];
         }
         self.position = ccpAdd(self.position, CGPointMake(xChange, 0.0f));

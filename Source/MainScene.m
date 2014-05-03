@@ -28,7 +28,7 @@
     _girl.position = ccp(175, 450);
     [self addChild:_girl];
     [self performSelector:@selector(AddAnother) withObject:nil afterDelay:1.6];
-    [self schedule:@selector(AddAnother) interval:10];
+    [self schedule:@selector(AddAnother) interval:3];
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
